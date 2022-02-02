@@ -1,0 +1,35 @@
+/* Setting Font-Family with Universal Selector */
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Set body background color to match primary color of banner image */
+body {
+    background-color: #3f48cc;
+}
+
+/* Header width to match screen dimensions. Height is auto to try and maintain aspect ratio.
+Uses background image located in Assets. Fixed position anchored to top-left corner of the screen */
+
+header {
+    width: 100%;
+    height: auto;
+    background-image: url("assets/Banner_1920x180px.png");
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+h1, h5 {
+    text-align: center;
+}
+
+/* Adding top-margin to Main so that the Header will not overlap */
+main {
+    margin-top: 180px;
+}
+
+.BigRed {
+    font-weight: bolder;
+    color: darkred;
+}
